@@ -5,6 +5,7 @@
 body {
   background-image: url("/noise.png");
   background-blend-mode: hard-light;
+  scroll-behavior: smooth;
 }
 @layer utilities {
   h1 span {
@@ -19,10 +20,29 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .transition-max-height {
+    transition: max-height 0.5s ease-in-out;
+  }
   .flex-center {
     @apply flex justify-center items-center;
   }
   .flex-between {
     @apply flex justify-between items-center;
+  }
+
+  .bbb {
+    animation: bbb 1s linear infinite;
+  }
+
+  @keyframes bbb {
+    0%,
+    100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.6, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
   }
 }

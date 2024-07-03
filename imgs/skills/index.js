@@ -1,0 +1,14 @@
+export { default as htmllogo } from "./html5.png";
+export { default as  css} from "./css.png";
+export { default as  js} from "./js.png";
+export { default as  typescript} from "./typescript.png";
+export { default as  git} from "./git.png";
+export { default as github } from "./github.png";
+export { default as  next} from "./next.png";
+export { default as  react} from "./react.svg";
+export { default as  api} from "./api.png";
+export { default as  sql} from "./sql.png";
+export { default as  node} from "./node.svg";
+export { default as amazon } from "./Amazon.svg";
+export { default as  reactBootstrap} from "./react-bootstrap.svg";
+export { default as  bootstrap} from "./bootstrap-logo-shadow.png";
