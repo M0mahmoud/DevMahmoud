@@ -11,10 +11,15 @@ export default function Home() {
     <main className="">
       <Nav />
       <Hero />
+      <div style={{ height: "100vh" }}></div>
       <AboutMe />
+      <div style={{ height: "100vh" }}></div>
       <Skills />
+      <div style={{ height: "100vh" }}></div>
       <Pojects />
+      <div style={{ height: "100vh" }}></div>
       <ContactUs />
+      <div style={{ height: "100vh" }}></div>
       <FQA />
     </main>
   );

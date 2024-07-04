@@ -8,8 +8,10 @@ export const metadata: Metadata = {
   title: "Mahmoud Mohamed",
   description: "FrontEnd Developer - M05",
   icons: "/logo.png",
+  verification: {
+    google: "yJjSOYb8whfF_s3VSwzoA5yIazKROQaFdDsiZE761B8",
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
