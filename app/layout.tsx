@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning lang="en">
-      <body className={`${biaJamjuree.className} bg-black text-white scroll-smooth container`}>{children}</body>
+      <body className={`${biaJamjuree.className} bg-black text-white container`}>{children}</body>
     </html>
   );
 }

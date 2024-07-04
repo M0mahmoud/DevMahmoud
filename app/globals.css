@@ -8,7 +8,11 @@ body {
   scroll-behavior: smooth;
 }
 @layer utilities {
-  h1 span {
+  body {
+    scroll-behavior: smooth;
+  }
+  h1 span,
+  h2 span {
     background: linear-gradient(90deg, #ff8d4e 0%, #ef9a69 48%, #dea789 56.5%, #d6ae97 70.5%, #c6bab4 97.5%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
