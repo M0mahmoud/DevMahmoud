@@ -9,13 +9,13 @@ const ContactUs = () => {
   const ref = useRef<HTMLFormElement>(null);
 
   return (
-    <section id="contact" className="flex justify-start items-start gap-6 flex-col sm:flex-row py-20">
+    <section id="contact" className="flex justify-start items-start gap-6 flex-col sm:flex-row py-10">
       <div className="flex items-start justify-center flex-col gap-6 w-full sm:w-1/2">
         <h2 className="text-5xl leading-10 font-bold">
-          <span>Get in touch</span>
+          <span className="hsp">Get in touch</span>
         </h2>
 
-        <p className="max-w-md font-medium  text-gray-400">Have a project in mind? Looking to partner or work together? Reach out through the form and I&#39;ll get back to you in the next 24 hours.</p>
+        <p className="max-w-lg font-medium  text-gray-400">Have a project in mind? Looking to partner or work together? Reach out through the form and I&#39;ll get back to you in the next 24 hours.</p>
         <div className="flex justify-center items-start gap-5 flex-col">
           <Link href="mailto:mahmoudweb05@gmail.com" className="flex items-center font-medium text-lg">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff" className="block w-5 h-5 me-2">
@@ -37,7 +37,7 @@ const ContactUs = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full sm:w-1/2 pt-5">
+      <div className="w-full sm:w-1/2">
         <form
           ref={ref}
           action={async (formData) => {
@@ -47,15 +47,15 @@ const ContactUs = () => {
         >
           <div className="flex flex-col gap-3 mb-4">
             <label htmlFor="name">Your Name</label>
-            <input required type="text" name="name" id="name" placeholder="Enter your name" className="p-2 text-base rounded-md border-none bg-[#1c1c22] focus:border-none focus:outline-none focus-visible:outline-none " />
+            <input required type="text" name="name" id="name" placeholder="Enter your name" className="p-2 text-base rounded-md border-none bg-dark-2 focus:border-none focus:outline-none focus-visible:outline-none " />
           </div>
           <div className="flex flex-col gap-3 mb-4">
             <label htmlFor="email">Your E-Mail</label>
-            <input required type="text" name="email" id="email" placeholder="Enter your e-Mail" className="p-2 text-base rounded-md border-none bg-[#1c1c22] focus:border-none focus:outline-none focus-visible:outline-none " />
+            <input required type="text" name="email" id="email" placeholder="Enter your e-Mail" className="p-2 text-base rounded-md border-none bg-dark-2 focus:border-none focus:outline-none focus-visible:outline-none " />
           </div>
           <div className="flex flex-col gap-3 mb-4">
             <label htmlFor="message">Tel me a bit more what you are looking for?</label>
-            <textarea required rows={5} name="message" id="message" placeholder="Enter Your Name" className="p-2 text-base rounded-md border-none bg-[#1c1c22] focus:border-none focus:outline-none focus-visible:outline-none max-h-96" />
+            <textarea required rows={5} name="message" id="message" placeholder="Enter Your Name" className="p-2 text-base rounded-md border-none bg-dark-2 focus:border-none focus:outline-none focus-visible:outline-none max-h-96" />
           </div>
           <p className="text-green-500 py-2">{state?.message}</p>
           <SubmitForm />

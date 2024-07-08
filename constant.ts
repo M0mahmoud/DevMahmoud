@@ -1,24 +1,33 @@
+import seo from "@/assets/services/seo.svg";
+
+export const CV = "https://docs.google.com/document/d/1rjb0d9PIqhYh3gvOxPbDWNk6K9HDp6LE/edit?usp=sharing&ouid=113801184848840889191&rtpof=true&sd=true";
+
+export const LINKS = {
+  email: "mahmoudweb05@gmail.com",
+  call: "+201156832943",
+  whatsApp: "https://wa.me/201156832943",
+  telegram: "https://t.me/dev_mahmoud_05",
+  twitter: "https://twitter.com/dev_mahmoud_05",
+  instagram: "https://www.instagram.com/dev_mahmoud_05",
+  github: "https://github.com/M0mahmoud",
+};
+export const MYSERVICES = [
+  {
+    id: "31",
+    title: "Website Development",
+    desc: "I develop websites ranging from simple static pages to complex web applications, tailored to meet your specific needs and goals.",
+    svg: "/services/websites.svg",
+  },
+  { id: "1", title: "Responsive Design", desc: "I create web pages that automatically adjust for different screen sizes, ensuring they look good and function well on all devices.", svg: "/services/responsive-design.svg" },
+  { id: "51", title: "Clean Code", desc: "My code is clean, easily understandable, and maintainable, ensuring it can be efficiently managed and extended by any developer.", svg: "/services/clean-code.svg" },
+  { id: "16", title: "High Performance", desc: "I optimize website performance using techniques like lazy loading and minifying CSS and JS files to ensure fast and efficient user experiences.", svg: "/services/high-Performance.svg" },
+  { id: "12", title: "SEO", desc: "I enhance website traffic quality and quantity from search engines, ensuring your site ranks higher and attracts more relevant visitors.", svg: "/services/seo.svg" },
+  { id: "91", title: "Custom Web Applications", desc: "I build custom web applications tailored to your business needs, providing unique functionality and a seamless user experience.", svg: "/services/business.svg" },
+];
 export const Questions = [
   { id: "1", question: "How long does a website take to build?", answer: "The time it takes to build a website depends on the complexity and features required. On average, it can take anywhere from a few weeks to a few months." },
   { id: "2", question: "How much does a website cost?", answer: "The cost of a website varies greatly depending on its complexity, features, and design requirements. It can range from a few hundred dollars to several thousand dollars." },
   { id: "3", question: "I don’t have a design, can you build it for me?", answer: "Yes, we can help you with the design and build of your website. Our team of designers and developers will work with you to create a website that meets your needs." },
   { id: "4", question: "Do you provide SEO as well?", answer: "Yes, we provide SEO services to help improve your website’s visibility on search engines and attract more traffic." },
   { id: "5", question: "Will my website load quickly?", answer: "We ensure that all websites we build are optimized for fast loading times, providing a better user experience for your visitors." },
-];
-
-export const skillsImages = [
-  { id: "1", img: './imgs/skills/html5.png"' },
-  { id: "2", img: './imgs/skills/css.png"' },
-  { id: "3", img: './imgs/skills/js.png"' },
-  { id: "4", img: './imgs/skills/typescript.png"' },
-  { id: "5", img: './imgs/skills/git.png"' },
-  { id: "6", img: './imgs/skills/github.png"' },
-  { id: "7", img: './imgs/skills/next.png"' },
-  { id: "18", img: './imgs/skills/react.svg"' },
-  { id: "9", img: './imgs/skills/api.png"' },
-  { id: "10", img: './imgs/skills/sql.png"' },
-  { id: "11", img: './imgs/skills/node.svg"' },
-  { id: "102", img: './imgs/skills/Amazon.svg"' },
-  { id: "13", img: './imgs/skills/react-bootstrap.svg"' },
-  { id: "104", img: './imgs/skills/bootstrap-logo-shadow.png"' },
 ];

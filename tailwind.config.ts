@@ -12,7 +12,17 @@ const config: Config = {
       colors: {
         dark: {
           1: "#161513",
+          2: "#1c1c22",
         },
+      },
+      keyframes: {
+        moveRightLeft: {
+          "0%, 100%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(8px)" },
+        },
+      },
+      animation: {
+        "move-arrow": "moveRightLeft .5s infinite",
       },
     },
   },
