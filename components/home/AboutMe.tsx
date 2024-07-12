@@ -1,5 +1,6 @@
 import aboutme from "@/assets/aboutme.svg";
 import Image from "next/image";
+import { ABOUTME } from "../../constant";
 
 const AboutMe = () => {
   return (
@@ -11,7 +12,7 @@ const AboutMe = () => {
           <h2 className="text-4xl leading-10 font-bold">
             About&#160;<span className="hsp">Me!</span>
           </h2>
-          <p className="font-medium text-gray-400 w-full md:max-w-xl">Hi, my name is Mahmoud. I am a graduate of the Faculty of Science, Computer Science department 2021 - 2024. I am from Egypt. I have rich experience in website development and building.</p>
+          <p className="font-medium text-gray-400 w-full md:max-w-xl">{ABOUTME.text}</p>
         </div>
       </div>
     </section>
