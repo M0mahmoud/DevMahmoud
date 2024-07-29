@@ -4,15 +4,20 @@ import type { Metadata } from "next";
 import { Bai_Jamjuree } from "next/font/google";
 import "./globals.css";
 
-const biaJamjuree = Bai_Jamjuree({ subsets: ["latin"], weight: ["200", "300", "400", "500", "600", "700"] });
+const biaJamjuree = Bai_Jamjuree({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Mahmoud Mohamed",
-  description: "Hi, my name is Mahmoud. I am a graduate of the Faculty of Science, Computer Science department 2021 - 2024. I am from Egypt. I have rich experience in website development and building.",
-  keywords: "M05, Mahmoud Mohamed, Website development, Web development, Computer Science, Faculty of Science, Egypt web developer, Graduate 2021-2024, Tailwind CSS, Next.js",
+  description:
+    "Hi, my name is Mahmoud. I am a graduate of the Faculty of Science, Computer Science department 2021 - 2024. I am from Egypt. I have rich experience in website development and building.",
+  keywords:
+    "M05, Mahmoud Mohamed, Website development, Web development, Computer Science, Faculty of Science, Egypt web developer, Graduate 2021-2024, Tailwind CSS, Next.js",
   icons: "/MYLOGO.svg",
   verification: {
-    google: "yJjSOYb8whfF_s3VSwzoA5yIazKROQaFdDsiZE761B8",
+    google: "J7H6YOKc8PKIHx_ar8Gjsa_ftandxzXWXrkv5jrQnok",
   },
 };
 export default function RootLayout({
@@ -22,7 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning className={`${biaJamjuree.className} bg-black text-white container`}>
+      <body
+        suppressHydrationWarning
+        className={`${biaJamjuree.className} bg-black text-white container`}
+      >
         <Nav />
         {children}
         <Footer />
