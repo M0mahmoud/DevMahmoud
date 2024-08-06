@@ -2,7 +2,7 @@ export const CV =
   "https://docs.google.com/document/d/1GM5cl36310M148yjPBmyxRYWRs2UFtY8/edit?usp=sharing&ouid=109633224767618673712&rtpof=true&sd=true";
 
 export const LINKS = {
-  email: "mahmoudweb05@gmail.com",
+  email: "contact@devmahmoud.me",
   call: "+201156832943",
   whatsApp: "https://wa.me/201156832943",
   telegram: "https://t.me/dev_mahmoud_05",

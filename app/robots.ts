@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://devmahmoud.vercel.app/sitemap.xml",
+    sitemap: "https://devmahmoud.me/sitemap.xml",
   };
 }
