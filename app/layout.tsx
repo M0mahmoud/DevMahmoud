@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "M05, Mahmoud Mohamed, Website development, Web development, Computer Science, Faculty of Science, Egypt web developer, Graduate 2021-2024, Tailwind CSS, Next.js",
   icons: "/MYLOGO.svg",
   verification: {
-    google: "J7H6YOKc8PKIHx_ar8Gjsa_ftandxzXWXrkv5jrQnok",
+    google: "yJjSOYb8whfF_s3VSwzoA5yIazKROQaFdDsiZE761B8",
   },
 };
 export default function RootLayout({
