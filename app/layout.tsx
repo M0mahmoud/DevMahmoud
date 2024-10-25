@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Bai_Jamjuree } from "next/font/google";
 import "./globals.css";
@@ -34,6 +35,7 @@ export default function RootLayout({
         <Nav />
         {children}
         <Footer />
+        <Analytics mode="production" />
       </body>
     </html>
   );
