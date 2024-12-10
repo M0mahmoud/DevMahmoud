@@ -1,10 +1,18 @@
 import ZoomBanner from "@/assets/banner.png";
-import barinWave from "@/assets/brainwave.png";
+import antique from "@/assets/antique.png";
 import threads from "@/assets/threads.png";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 export const PROJECTS = [
+  {
+    id: "145",
+    title: "Antique E-Commerce",
+    desc: "Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.",
+    codeLink: "https://github.com/M0mahmoud/Antique-E-Commerce-Furniture",
+    demo: "https://antique05.vercel.app",
+    image: antique,
+  },
   {
     id: "125",
     title: "Zoom Clone",
@@ -20,14 +28,6 @@ export const PROJECTS = [
     codeLink: "https://github.com/M0mahmoud/threads",
     demo: "https://threads05.vercel.app/",
     image: threads,
-  },
-  {
-    id: "145",
-    title: "Brain Wave",
-    desc: "Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.",
-    codeLink: "https://github.com/M0mahmoud/BrainWave/",
-    demo: "https://brain-wave-05.vercel.app/",
-    image: barinWave,
   },
 ];
 const Pojects = () => {
