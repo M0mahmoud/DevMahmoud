@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex w-full justify-center items-center flex-col gap-10 py-10">
+    <footer className="flex w-full justify-center items-center flex-col gap-10 py-10 pb-18">
       <Link
         aria-label="My Logo"
         href={"/"}
@@ -27,7 +27,7 @@ const Footer = () => {
           All rights reserved.&#160;{new Date().getFullYear()}
         </p>
       </div>
-      <div className="flex flex-wrap gap-6 justify-center items-center px-6 py-2 rounded-full sp">
+      <div className="flex flex-wrap gap-6 justify-center items-center px-6 py-2 rounded-full sp fixed bottom-[20px]">
         <Link
           aria-label="Other Links"
           href={`mailto:${LINKS.email}`}
