@@ -19,6 +19,7 @@ export const EXPERIENCE = [
       title: "Frontend Developer",
       company: "Madmon.ai",
       duration: "Dec 2022 - May 2025",
+      link: "https://madmon.ai/",
       description:
         "Worked at Madmon.ai as a Front-End Developer building modern website and interactive dashboard using Next.js, React.js, TypeScript, MUI, ShadCN, Tailwind CSS, React Query, and other modern tools, focusing on responsive design, performance, and UI consistency.",
       skills: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN" , "MUI", "React Query", "Axios"],

@@ -52,7 +52,14 @@ const ExperienceSection = () => {
                     <h3 className="text-xl md:text-2xl font-bold text-white mb-1">
                       {exp.title}
                     </h3>
-                    <h4 className="text-lg md:text-xl  hsp font-semibold">{exp.company}</h4>
+                    <a
+                      href={exp.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xl hsp font-semibold hsp cursor-pointer hover:underline"
+                    >
+                      {exp.company}
+                    </a>
                   </div>
                   <div className="bg-purple-500/10 text-purple-300 px-4 py-2 rounded-full border border-purple-500/30 text-sm font-medium w-fit">
                     {exp.duration}
