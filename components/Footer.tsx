@@ -23,7 +23,7 @@ const Footer = () => {
         <h2 className="text-2xl smtext-4xl leading-10 font-bold text-center hsp">
           Mahmoud Mohamed
         </h2>
-        <p className="text-base text-gray-400 text-center">
+        <p className="text-base text-gray-400 text-center pb-10">
           All rights reserved.&#160;{new Date().getFullYear()}
         </p>
       </div>

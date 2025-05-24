@@ -14,6 +14,16 @@ export const LINKS = {
 export const ABOUTME = {
   text: "Hi, my name is Mahmoud. I am a graduate of the Faculty of Science, Computer Science department 2021 - 2024. I am from Egypt. I have rich experience in website development and building.",
 };
+export const EXPERIENCE = [
+    {
+      title: "Frontend Developer",
+      company: "Madmon.ai",
+      duration: "Dec 2022 - May 2025",
+      description:
+        "Worked at Madmon.ai as a Front-End Developer building modern website and interactive dashboard using Next.js, React.js, TypeScript, MUI, ShadCN, Tailwind CSS, React Query, and other modern tools, focusing on responsive design, performance, and UI consistency.",
+      skills: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN" , "MUI", "React Query", "Axios"],
+    },
+  ];
 export const MYSERVICES = [
   {
     id: "31",

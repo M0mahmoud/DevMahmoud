@@ -1,4 +1,5 @@
 import { CV } from "@/constant";
+import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
@@ -32,7 +33,7 @@ const Hero = () => {
                     </Link>
                 </div>
             </div>
-            <img
+            <Image
                 src={"/mahmoud-removebg.avif"}
                 alt="Mahmoud"
                 width={350}
