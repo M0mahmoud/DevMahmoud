@@ -11,11 +11,11 @@ const biaJamjuree = Bai_Jamjuree({
 });
 
 export const metadata: Metadata = {
-  title: "Mahmoud Mohamed",
+   title: "Mahmoud Mohamed | Front-End Developer (React.js | Next.js)",
   description:
-    "Hi, my name is Mahmoud. I am a graduate of the Faculty of Science, Computer Science department 2021 - 2024. I am from Egypt. I have rich experience in website development and building.",
+    "I'm Mahmoud Mohamed, a Front-End Developer from Egypt with hands-on experience building modern web applications using React.js, Next.js, and Tailwind CSS. I specialize in developing responsive, high-performance UIs with a focus on clean code and best practices.",
   keywords:
-    "M05, Mahmoud Mohamed, Website development, Web development, Computer Science, Faculty of Science, Egypt web developer, Graduate 2021-2024, Tailwind CSS, Next.js",
+    "M05, Mahmoud Mohamed, Front-End Developer, React Developer, Next.js Developer, Tailwind CSS, Web Developer Egypt, JavaScript, HTML5, CSS3, Mongoose, Clerk, Firebase, Node.js, Portfolio, devmahmoud.me, Threads Clone, Zoom Clone, E-Commerce App, Real-time Chat App",
   icons: "/MYLOGO.svg",
   verification: {
     google: "yJjSOYb8whfF_s3VSwzoA5yIazKROQaFdDsiZE761B8",
