@@ -5,6 +5,7 @@ export const CV =
 
 export const LINKS = {
   email: "contact@devmahmoud.me",
+  secondEmail: "devmahmoud.me@gmail.com",
   call: "+201156832943",
   whatsApp: "https://wa.me/201156832943",
   telegram: "https://t.me/dev_mahmoud_05",
