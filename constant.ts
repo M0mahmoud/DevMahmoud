@@ -1,7 +1,7 @@
 export const BASE_URL = "https://devmahmoud.vercel.app";
 
 export const CV =
-  "https://docs.google.com/document/d/1ONc-fg9VDqTIWI3ljXPPc9WUa6_x72ac/edit?usp=sharing&ouid=109633224767618673712&rtpof=true&sd=true";
+  "https://drive.google.com/file/d/1aeQ3OKtDIJXOCxO01VpRR0Qh7kVzkF1U/view";
 
 export const LINKS = {
   email: "contact@devmahmoud.me",
