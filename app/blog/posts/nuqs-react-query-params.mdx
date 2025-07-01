@@ -1,0 +1,69 @@
+---
+title: "The Easiest Way to Manage URL Params in React and Next.js"
+publishedAt: "2025-07-01"
+summary: "An overview of the Nuqs library, explaining its features and practical usage for managing query parameters easily and safely."
+image: "nuqs-react-query-params.jpg"
+---
+
+If you've worked with **React.js** or **Next.js**, you've probably struggled with managing **Query Params**, and it always feels messy and unclear 😮‍💨
+
+A few days ago, I discovered an open source library called **Nuqs**, and honestly—it made things a whole lot easier ✨
+
+## Why not just use `useSearchParams` or `router.query`?
+
+- Requires writing a lot of boilerplate to update query params
+- No type safety
+- Code becomes messy and unreadable
+- Proper validation is hard
+- And everything must be handled client-side
+
+## So how does Nuqs solve all that? 💡
+
+✅ Full **TypeScript** support with type safety  
+✅ Works seamlessly with **SSR** and supports caching  
+✅ Easily handles **multiple query parameters**  
+✅ Clean and minimal code  
+✅ Easy to implement **validation**
+
+## Quick Example:
+
+```tsx
+const [search, setSearch] = useQueryState("q");
+```
+
+That’s it! You use `search` just like a normal `useState`, and any changes are automatically reflected in the URL 🔄
+
+## Example with multiple query params:
+
+```tsx
+const [filters, setFilters] = useQueryStates({
+  category: parseAsString.withDefault("all"),
+  minPrice: parseAsInteger.withDefault(0),
+  maxPrice: parseAsInteger.withDefault(1000),
+  inStock: parseAsBoolean.withDefault(false),
+});
+```
+
+## What are `parseAsString`, `parseAsInteger`, etc.?
+
+Nuqs provides a set of built-in parsers like:
+
+- `parseAsString`
+- `parseAsInteger`
+- `parseAsBoolean`
+- `parseAsArrayOfStrings`
+- And more...
+
+These parsers:
+
+🔹 Convert data from the URL (always strings) to proper types like numbers, booleans, arrays...  
+🔹 Fully support **TypeScript**, so you get complete type safety and autocompletion  
+🔹 Make your code cleaner, safer, and more maintainable  
+🔹 And yes—you can also create your own custom parsers!
+
+If you’re working with search, filters, pagination, or want to build **shareable frontend links**,  
+I highly recommend trying **Nuqs** 👌  
+You won’t regret it.
+
+📖 Learn more at:  
+[https://nuqs.47ng.com](https://nuqs.47ng.com)

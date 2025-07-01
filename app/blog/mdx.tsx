@@ -1,6 +1,6 @@
 import { highlight } from "sugar-high";
 
-import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
+import { MDXRemote } from "next-mdx-remote/rsc";
 import Image, { ImageProps } from "next/image";
 import Link from "next/link";
 import React, { ReactNode } from "react";
