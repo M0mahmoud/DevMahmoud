@@ -7,9 +7,10 @@ import React from "react";
 import { CustomMDX } from "../mdx";
 import { formatDate, getPost } from "../utils";
 
-type Props = { params: { slug: string } };
+type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = getPost(params.slug);
+  const { slug } = await params;
+  const post = getPost(slug);
 
   if (!post) return { title: "NOT FOUND" };
 
@@ -35,8 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function page({ params }: Props) {
-  const post = getPost(params.slug);
+export default async function page({ params }: Props) {
+  const { slug } = await params;
+  const post = getPost(slug);
 
   if (!post) {
     return notFound();
@@ -55,7 +57,7 @@ export default function page({ params }: Props) {
             dateModified: post.metadata.publishedAt,
             description: post.metadata.summary,
             image: `/blog/images/${post.metadata.image}`,
-            // url: `${baseUrl}/blog/${post.slug}`,
+            url: `${BASE_URL}/blog/${post.slug}`,
             author: {
               "@type": "Person",
               name: "My Portfolio",
