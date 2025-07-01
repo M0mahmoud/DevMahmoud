@@ -6,6 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   let blogs = getBlogPosts().map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
     lastModified: post.metadata.publishedAt,
+    images: [`${BASE_URL}/blog/images/${post.metadata.image}`],
   }));
 
   let routes = ["", "/blog"].map((route) => ({
