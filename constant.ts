@@ -1,4 +1,4 @@
-export const BASE_URL = "https://devmahmoud.vercel.app";
+export const BASE_URL = "https://devmahmoud.me";
 
 export const CV =
   "https://drive.google.com/file/d/1aeQ3OKtDIJXOCxO01VpRR0Qh7kVzkF1U/view";
